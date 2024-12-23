@@ -84,7 +84,7 @@ document.getElementById('createButton').addEventListener('click', function() {
 
           // Draw the name inside the shadow box, below the message
           ctx.font = `${fontSize - 5}px Arial`;
-          ctx.fillStyle = 'red'; // Name text color
+          ctx.fillStyle = 'green'; // Name text color
           ctx.fillText(`- ${name}`, x, textStartY + lines.length * lineHeight + 20); // Ensure name fits inside
 
           // Display and download the greeting card
